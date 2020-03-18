@@ -14,6 +14,10 @@
       "text": "Twitter",
       "url": "https://twitter.com/papplegate",
       "external": true
+    },
+    {
+      "text": "Contact",
+      "url": "/contact"
     }
   ]
 }
