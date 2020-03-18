@@ -8,13 +8,13 @@ permalink: /contact/index.html
     <label for="full-name">Full Name</label>
     <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
     <label for="email-address">Email Address</label>
-    <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
     <label for="message">Message</label>
-    <textarea rows="5" name="message" id="message" placeholder="Message Placeholder" required=""></textarea>
+    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
   <input type="submit" value="Submit">
-</form><style>/\* reset \*/
+</form><style>/* reset */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -38,7 +38,7 @@ permalink: /contact/index.html
   font-size: .825em;
   margin-bottom: .5em;
 }
-/\* border, padding, margin, width \*/
+/* border, padding, margin, width */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea {
@@ -56,38 +56,55 @@ permalink: /contact/index.html
   outline-color: gray;
   outline-offset: -1px;
 }
-#fs-frm \[type="text"],
-#fs-frm \[type="email"] {
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
   width: 100%;
 }
-#fs-frm \[type="button"],
-#fs-frm \[type="submit"],
-#fs-frm \[type="reset"] {
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
   width: auto;
   cursor: pointer;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
 }
-#fs-frm \[type="button"]:focus,
-#fs-frm \[type="submit"]:focus,
-#fs-frm \[type="reset"]:focus {
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
   outline: none;
 }
-#fs-frm \[type="submit"],
-#fs-frm \[type="reset"] {
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
   margin-bottom: 0;
 }
 #fs-frm select {
   text-transform: none;
 }
 
-/ *address, locale* / #fs-frm fieldset.locale input\[name="city"], #fs-frm fieldset.locale select\[name="state"], #fs-frm fieldset.locale input\[name="postal-code"] {   display: inline;
+/* address, locale */
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  display: inline;
 }
-#fs-frm fieldset.locale input\[name="city"] {   width: 52%;
+#fs-frm fieldset.locale input[name="city"] {
+  width: 52%;
 }
-#fs-frm fieldset.locale select\[name="state"], #fs-frm fieldset.locale input\[name="postal-code"] {   width: 20%;
+#fs-frm fieldset.locale select[name="state"],
+#fs-frm fieldset.locale input[name="postal-code"] {
+  width: 20%;
 }
-#fs-frm fieldset.locale input\[name="city"], #fs-frm fieldset.locale select\[name="state"] {   margin-right: 3%;
+#fs-frm fieldset.locale input[name="city"],
+#fs-frm fieldset.locale select[name="state"] {
+  margin-right: 3%;
 }
 </style>
+
+
+
+
+
+
+
+
