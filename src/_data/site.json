@@ -1,13 +1,13 @@
 {
   "showThemeCredit": true,
   "name": "Living Life",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
-  "url": "https://friendly-jackson-433385.netlify.com",
+  "shortDesc": "Obviously you’ve reached the bottom of the page",
+  "url": "https://paulapplegate.com",
   "authorEmail": "me@paulapplegate.com",
   "authorHandle": "@papplegate",
   "authorName": "Paul Applegate",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
   "paymentPointer": "$coil.xrptipbot.com/",
-  "faviconPath": "/images/favicon.png"
+  "faviconPath": "/images/favicon.png",
+  "maxPostsPerPage": 5
 }
