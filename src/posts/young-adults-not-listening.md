@@ -7,7 +7,7 @@ tags:
   - COVID-19
   - Pandemic
 ---
-![](images/2d93053d-d491-4569-9cda-4313f10856e3.jpeg)
+![](images/covid19.jpg)
 
 
 
