@@ -14,18 +14,3 @@ We turned into the mall and saw the stores had power. As we got inside we saw th
 
 
 
-<!–Use data-srcset, data-src and specify lazyload class for images –>
-<picture>
-  <source data-srcset=‘small.webp’ type=“image/webp” media=“(max-width: 500px)”>
-  <source data-srcset=‘medium.webp’ type=“image/webp” media=“(max-width: 900px)”>
-  <source data-srcset=‘large.webp’ type=“image/webp” media=“(min-width: 901px)”>
-  <source data-srcset=‘small.jpg’ type=“image/jpg” media=“(max-width: 500px)”>
-  <source data-srcset=‘medium.jpg’ type=“image/jpg” media=“(max-width: 900px)”>
-  <source data-srcset=‘large.jpg’ type=“image/jpg” media=“(min-width: 901px)”>
-  <img data-src=“/images/Escalator.jpg” class=“lazyload”
-    alt=“Your Alt Text Here” title=“Your Title Text Here” />
-</picture>
-<!–Use noscript to make sure images are indexed –>
-<noscript>
-    <img src=“/images/Escalator.jpg” alt=“Your Alt Text Here” title=“Your Title Text Here” />
-</noscript>
