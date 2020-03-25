@@ -14,8 +14,8 @@ We turned into the mall and saw the stores had power. As we got inside we saw th
 
 <img 
     data-srcset="
-        /images/Escalator.jpg-100 100w,
-        /images/Escalator.jpg-300 300w"
+        /images/Escalator-100.jpg 100w,
+        /images/Escalator-300.jpg 300w"
     data-src="/images/Escalator.jpg"
     alt="Responsive Image"
 >
