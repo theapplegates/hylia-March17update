@@ -3,6 +3,8 @@ layout: layouts/page.njk
 title: Contact
 permalink: /contact/index.html
 ---
+[Keybase.io](https://keybase.io/mrapplegate) now lets you chat with members whether you have an account or not. So for an encrypted chat with me just go [here](https://keybase.io/mrapplegate/chat)
+
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/maywgyww" method="post">
   <fieldset id="fs-frm-inputs">
     <label for="full-name">Full Name</label>
