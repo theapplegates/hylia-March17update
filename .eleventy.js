@@ -14,6 +14,7 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import data files
 const site = require('./src/_data/site.json');
 
+module.exports = function(config) {
   // Filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
@@ -54,7 +55,7 @@ const site = require('./src/_data/site.json');
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
 
-  // 404
+  // 404 
   config.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
