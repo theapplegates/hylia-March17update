@@ -14,17 +14,6 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import data files
 const site = require('./src/_data/site.json');
 
-module.exports = function(config) {
-   let markdownIt = require("markdown-it");
-  let markdownItEmoji = require("markdown-it-emoji");
-  let options = {
-    html: true
-  };
-  let markdownLib = markdownIt(options).use(markdownItEmoji);
-  
-  eleventyConfig.setLibrary("md", markdownLib);
-  
-  
   // Filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
@@ -65,7 +54,7 @@ module.exports = function(config) {
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
 
-  // 404 
+  // 404
   config.setBrowserSyncConfig({
     callbacks: {
       ready: function(err, browserSync) {
