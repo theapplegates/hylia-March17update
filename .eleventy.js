@@ -15,6 +15,16 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 const site = require('./src/_data/site.json');
 
 module.exports = function(config) {
+   let markdownIt = require("markdown-it");
+  let markdownItEmoji = require("markdown-it-emoji");
+  let options = {
+    html: true
+  };
+  let markdownLib = markdownIt(options).use(markdownItEmoji);
+  
+  eleventyConfig.setLibrary("md", markdownLib);
+  
+  
   // Filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);
